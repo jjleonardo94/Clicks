@@ -1,0 +1,44 @@
+.datatableClicks {
+  height: 600px;
+  padding: 20px;
+
+  //edit the dataGrid components
+  .datagrid {
+    .MuiDataGrid-root,
+    .MuiDataGrid-columnHeader:focus,
+    .MuiDataGrid-root,
+    .MuiDataGrid-cell:focus,
+    .MuiDataGrid-cell--textLeft,
+    .MuiDataGrid-cellCheckbox,
+    .MuiDataGrid-columnHeaderCheckbox,
+    .MuiDataGrid-columnHeaderTitleContainer,
+    .MuiDataGrid-columnHeader {
+      outline: none !important;
+    }
+  }
+
+  .MuiSvgIcon-root {
+    color: gray;
+  }
+
+  .datatableTitle {
+    width: 100%;
+    font-size: 24px;
+    color: gray;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .link {
+      text-decoration: none;
+      color: green;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}

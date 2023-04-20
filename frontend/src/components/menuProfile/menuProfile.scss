@@ -1,0 +1,50 @@
+.menuProfile {
+  position: absolute;
+  top: 3.2em;
+  right: -1.4em;
+  width: 170px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid gray;
+  z-index: 1001;
+}
+
+.menuProfile::before {
+  content: "";
+  position: absolute;
+  top: -0.66em;
+  right: 1.7em;
+  width: 18px;
+  height: 17.5px;
+  transform: rotate(45deg);
+  background-color: white;
+  border-left: 1px solid gray;
+  border-top: 1px solid gray;
+}
+
+ul {
+  list-style: none;
+  gap: 4px;
+  color: #999;
+}
+
+.displayName {
+  color: #0031f7;
+}
+
+ul:hover {
+  cursor: pointer;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin-top: 4px;
+
+  .icon {
+    font-size: 18px;
+    color: #0069aa;
+  }
+}
